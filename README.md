@@ -89,6 +89,8 @@ Seven-segment display or LCD may be used.
 ---
 
 ## Updates
-Recently discovered there is a mistake in the JUMPZ and JUMPNZ instructions. This is currently being worked on. The updated CPU block diagram, RTL instructions and VHDL code will added shortly.
+1. Recently discovered there is a mistake in the TESTZ and TESTNZ instructions. This is currently being worked on. The updated CPU block diagram, RTL instructions and VHDL code will added shortly.
+
+In the original version of the design, the ouptut of the general purpose registers were inverted before being stored in the x register. This caused the output to be wrong. In the new version, the inputs are not inverted and the last bit of the general purpose registers are stored in the X register and then inverted depending on the instruction. 
 
 ---
