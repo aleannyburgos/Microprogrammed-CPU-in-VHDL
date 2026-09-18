@@ -87,3 +87,8 @@ Seven-segment display or LCD may be used.
 - Seven Segment Decoder
 
 ---
+
+## Updates
+Recently discovered there is a mistake in the JUMPZ and JUMPNZ instructions. This is currently being worked on. The updated CPU block diagram, RTL instructions and VHDL code will added shortly.
+
+---
